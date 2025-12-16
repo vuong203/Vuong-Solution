@@ -1,0 +1,11 @@
+/* Styles personnalisés pour le site */
+body {
+    font-family: 'Arial', sans-serif;
+}
+.navbar-brand {
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
