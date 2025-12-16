@@ -1,0 +1,40 @@
+title: "Mon Univers Technologique"
+description: "Site personnel sur les technologies, applications et cours informatiques"
+author: "Votre Nom"
+email: "votre.email@example.com"
+url: "https://votreusername.github.io"
+baseurl: "/site-tech" # Remplacer par le nom du repo GitHub si différent
+timezone: Europe/Paris
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections pour les sections modulaires
+collections:
+  technologies:
+    output: true
+    permalink: /technologies/:title/
+  applications:
+    output: true
+    permalink: /applications/:title/
+  cours:
+    output: true
+    permalink: /cours/:title/
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+
+# SEO et responsive
+sass:
+  sass_dir: _sass
+
+# Thèmes (utiliser minima par défaut)
+theme: minima
+minima:
+  skin: classic
