@@ -1,9 +1,9 @@
 title: "Mon Univers Technologique"
 description: "Site personnel sur les technologies, applications et cours informatiques"
-author: "Votre Nom"
-email: "votre.email@example.com"
-url: "https://votreusername.github.io"
-baseurl: "/site-tech" # Remplacer par le nom du repo GitHub si différent
+author: "Alexandre-vuong"
+email: "app.alexandrevuong@gmail.com"
+url: "https://vuong203.github.io"
+baseurl: "/Vuing-Solution" # Remplacer par le nom du repo GitHub si différent
 timezone: Europe/Paris
 
 # Plugins
